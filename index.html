@@ -518,7 +518,10 @@
                 <h2>About Me</h2>
             </div>
             <div class="about-content fade-in">
-                <p>As a graduated automation student, I want to apply the knowledge I have studied in school and apply it to real life. I have extensive experience working with electronic circuits and have achieved recognition from businesses for my learning capabilities and valuable feedback contributions to various projects.</p>
+                <p>I am an Embedded Software Engineer with hands-on experience in developing and validating embedded systems. My expertise includes working 
+                    with microcontrollers, system software development and low-level driver integration. I have been involved in projects in the automotive 
+                    and IoT domains, focusing on performance optimization, debugging and test automation. I am passionate about applying my technical knowledge 
+                    to solve real-world problems, continuously improving my skills and delivering high-quality solutions to meet project requirements.</p>
             </div>
         </div>
     </section>
@@ -533,31 +536,26 @@
                 <div class="skill-category fade-in">
                     <h3>Programming Languages</h3>
                     <ul class="skill-list">
-                        <li>C / C++</li>
+                        <li>C / C++ (Array, Pointer, OOP)</li>
                         <li>Python</li>
-                        <li>MATLAB (Array, Pointer, OOP)</li>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>Bootstrap</li>
+                        <li>MATLAB simulation</li>
+                        <li>HTML, CSS, JavaScript, Bootstrap</li>
                     </ul>
                 </div>
                 <div class="skill-category fade-in">
-                    <h3>Microcontroller Architecture</h3>
+                    <h3>MCU & SOC</h3>
                     <ul class="skill-list">
-                        <li>PIC 16F877A</li>
-                        <li>Arduino</li>
-                        <li>ESP32</li>
-                        <li>STM32F103C8T6</li>
-                        <li>NRF5X</li>
+                        <li>Renesas</li>
+                        <li>ARM Cortex-M: STM32Fx, NRF5x, Gr551x</li>
+                        <li>ESP32, Arduino, PIC 16F877A, EPC001</li>
                     </ul>
                 </div>
                 <div class="skill-category fade-in">
                     <h3>Protocols & Communication</h3>
                     <ul class="skill-list">
-                        <li>UART, SPI, I2C</li>
-                        <li>GPIO, PWM</li>
-                        <li>RTOS, MQTT</li>
-                        <li>Socket.io</li>
-                        <li>BLE (GATT, GAP, OTA, FOTA)</li>
+                        <li>Wired: UART, SPI, I2C, GPIO</li>
+                        <li>Wireless/Network: Wi-Fi, BLE, Zigbee</li>
+                        <li>Application Layer: MQTT, Socket I/O</li>
                     </ul>
                 </div>
                 <div class="skill-category fade-in">
@@ -609,16 +607,20 @@
                         <p class="period">June 2025 – Present</p>
                         <div class="description">
                             <p>Working on Renesas Design Vietnam Co., Ltd.</p>
-                            <p><strong>Project: R-Car Automotive System-on-Chips (SoCs)</strong> (June 2025 – October 2025)</p>
+                            <p><strong>Project: <a href="https://www.renesas.com/en/products/automotive-products/automotive-system-chips-socs" target="_blank">
+                                R-Car Automotive System-on-Chips (SoCs)
+                                </a></strong> (June 2025 – October 2025)</p>
                             <ul>
-                                <li>Implement ECM and CLMA module development program at low-level layer</li>
-                                <li>Write test cases to bypass function, calculate and measure RAM/ROM/STACK/EXECUTION TIME and coverage function</li>
-                                <li>Develop MDF test files for gene configuration and new feature development</li>
-                                <li>Use debugging tools: JTAG, Jlink, logic analyzer</li>
-                                <li>Collaborate with CI/CD team for GitLab CI integration and static analysis</li>
-                                <li>Create Excel files for module management and register file generation</li>
-                                <li>Review team members' source code and provide evaluations</li>
-                                <li>Manage tasks via Jira and technical documentation via Confluence</li>
+                                <li>Developed and validated ECM (Error Control Module) and CLMA (Clock Monitor) modules within Renesas Flexible Software 
+                                    Package (FSP) at the low-level firmware layer for automotive safety use cases.</li>
+                                <li>Designed and executed FSP-based unit/integration tests to measure RAM/ROM, stack usage, execution time, 
+                                    improving test coverage from around 50% to 100%.</li>
+                                <li>Develop MDF test files for gene configuration and new feature development of ECM and CLMA module.</li>
+                                <li>Debugged FSP drivers with JTAG/J-Link/logic analyzer, shortening module bring-up time.</li>
+                                <li>Integrated FSP builds into GitLab CI, applied static analysis, cutting post-release defects by 100%.</li>
+                                <li>Automated register validation in FSP by generating Excel-based register maps (with/without cluster)</li>
+                                <li>Review team members' source code and evaluate.</li>
+                                <li>Managed tasks on Jira/Confluence and handled GitLab & TortoiseSVN for release flow.</li>
                             </ul>
                         </div>
                     </div>
@@ -634,13 +636,18 @@
                             <p>Brain Life is a company specializing in EEG brainwave research and developing brainwave related devices.</p>
                             <ul>
                                 <li>Research and develop brain wave products (EEG, FNIRS, PPG)</li>
-                                <li>Process ADC noise signals and execute PWM programs to control LED based on EEG signals</li>
+                                <li>Process ADC noise signals and execute PWM program to control LED when there is signal from EEG (focus and relax).</li>
                                 <li>Implement programs on custom boards: NRF5x, Gr551x, STM32Fx, EPC001</li>
-                                <li>Execute Zephyr RTOS tasks: Threads, Multithreaded, Scheduler, Mutex, Semaphores</li>
-                                <li>Write driver protocols, middleware and API layers for BLE, UART, I2C, SPI</li>
-                                <li>Solve BLE data transmission problems including connection and reconnection intervals</li>
-                                <li>Collaborate with mobile app team for data standards and bit rate calculations</li>
-                                <li>Use VSCode, OpenOCD for source code development</li>
+                                <li>Execute Zephyr RTOS tasks such as Threads, Multithreaded, Schedular, Mutex, Semaphores.... for the system.</li>
+                                <li>Read schematics and develop programming on customboard projects.</li>
+                                <li>Write driver protocol, middle-ware and API layer: BLE (GATT, GAP, Service, Characteristic, Advertising, OTA, FOTA,…..), UART, I2C, SPI.</li>
+                                <li>Solves data transmission problems over BLE such as connecting interval and reconnecting interval.</li>
+                                <li>Collaborate with the mobile app team to come up with data standards and calculate how many bits/second the data returned to the mobile.</li>
+                                <li>Develop small functions and debugger by break point and RTT.</li>
+                                <li>Use Oscilloscope, VOM to check the circuit and solder the circuit according to the drawing diagram.</li>
+                                <li>Check the solder joints on the PCB and debug the board if there are problems.</li>
+                                <li>Coordinate with Product department to design and assemble products</li>
+                                <li>Manage source code on gitlab and use git flow for teamworks.</li>
                             </ul>
                         </div>
                     </div>
